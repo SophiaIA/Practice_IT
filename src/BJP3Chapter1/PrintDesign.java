@@ -24,7 +24,7 @@ public class PrintDesign {
                 System.out.print("-");
             }
             minusNumber--;
-            number = number + 2;
+            number += 2;
             System.out.println();
         }
 
