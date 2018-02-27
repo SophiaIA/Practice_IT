@@ -8,10 +8,11 @@ Write a program in a class named StarFigure that produces the following output u
 ********************************
  */
 public class StarFigure {
+    public static final int SIZE=3;
     public static void main(String[] args){
-        int slashNumber=16;
+        int slashNumber=4*(SIZE-1);
         int starNumber=0;
-        for(int j=0; j<5;j++){
+        for(int j=0; j<SIZE;j++){
             for(int i=0; i<slashNumber; i++){
                 System.out.print("/");
             }
@@ -23,7 +24,7 @@ public class StarFigure {
             }
             System.out.println();
             slashNumber-=4;
-            starNumber=32-2*slashNumber;
+            starNumber+=8;
         }
     }
 }
