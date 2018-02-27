@@ -25,8 +25,8 @@ public class SlashFigure {
                     System.out.print("/");
                 }
                 System.out.println();
-                colNumber=colNumber-4;
-                slashNumber=slashNumber+2;
+                colNumber-=4;
+                slashNumber+=2;
             }
         }
 }
