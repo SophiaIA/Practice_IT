@@ -14,8 +14,7 @@ Your name in reverse order is Jankis, Sammy
 import java.util.Scanner;
 
 public class ProcessName {
-    public static void processName(){
-        Scanner scan=new Scanner(System.in);
+    public static void processName(Scanner scan){
         System.out.print("Please enter your full name: ");
         String fullName=scan.nextLine();
         String[] splitedName=fullName.split("\\s+");
